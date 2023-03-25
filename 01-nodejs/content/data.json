@@ -1,0 +1,57 @@
+[
+  {
+    "id": 0,
+    "productName": "Bơ Tươi",
+    "image": "🥑",
+    "from": "Việt Nam",
+    "nutrients": "Vitamin B, Vitamin K",
+    "quantity": "4 🥑",
+    "price": "164000",
+    "organic": true,
+    "description": "Một quả bơ chín sẽ tạo ra áp lực nhẹ khi cầm trong lòng bàn tay và bóp. Trái cây không ngọt, nhưng có hương vị rõ ràng và tinh tế, với kết cấu mịn. Bơ phổ biến trong ẩm thực chay như là một chất thay thế cho thịt trong bánh mì và sa lát vì hàm lượng chất béo cao. Nói chung, bơ được ăn sống, mặc dù một số giống bơ, bao gồm cả loại 'Hass' phổ biến, có thể được nấu trong thời gian ngắn mà không bị đắng. Nó được sử dụng làm cơ sở cho món nhúng Mexico được gọi là guacamole, cũng như phết lên bánh ngô hoặc bánh mì nướng, ăn kèm với gia vị."
+  },
+  {
+    "id": 1,
+    "productName": "Phô Mai Dê Và Cừu",
+    "image": "🧀",
+    "from": "Việt Nam",
+    "nutrients": "Vitamin A, Calcium",
+    "quantity": "250g",
+    "price": "126000",
+    "organic": false,
+    "description": "Kem và hương vị khác biệt, phô mai dê là một sản phẩm từ sữa được yêu thích trên khắp thế giới. Phô mai dê có nhiều hương vị và kết cấu khác nhau, từ phô mai tươi mềm và dễ phết đến phô mai mặn, lâu năm vụn. Mặc dù được làm bằng quy trình đông tụ và tách giống như phô mai làm từ sữa bò, nhưng phô mai dê khác về hàm lượng chất dinh dưỡng."
+  },
+  {
+    "id": 2,
+    "productName": "Bông Cải Xanh Apollo",
+    "image": "🥦",
+    "from": "Việt Nam",
+    "nutrients": "Vitamin C, Vitamin K",
+    "quantity": "3 🥦",
+    "price": "139000",
+    "organic": true,
+    "description": "Bông cải xanh được biết đến là một loại rau thơm ngon, giàu chất dinh dưỡng. Nó được cho là chứa nhiều dinh dưỡng nhất so với bất kỳ loại rau nào. Khi chúng ta nghĩ về các loại rau xanh để đưa vào chế độ ăn uống của mình, bông cải xanh là một trong những loại rau quan trọng nhất mà chúng ta nghĩ đến. Bông cải xanh là một loại rau họ cải và là một phần của họ cải bắp, bao gồm các loại rau như cải Brussel và cải xoăn. Mặc dù mùi vị khác nhau nhưng bông cải xanh và những loại rau khác này thuộc cùng một họ."
+  },
+  {
+    "id": 3,
+    "productName": "Cà Rốt Bao Tử",
+    "image": "🥕",
+    "from": "Việt Nam",
+    "nutrients": "Vitamin A, Vitamin K",
+    "quantity": "20 🥕",
+    "price": "75000",
+    "organic": true,
+    "description": "Cà rốt là một loại rau củ thường được cho là thực phẩm hoàn hảo cho sức khỏe. Nó giòn, ngon và rất bổ dưỡng. Cà rốt là một nguồn beta-carotene, chất xơ, vitamin K, kali và chất chống oxy hóa đặc biệt tốt. Cà rốt có một số lợi ích sức khỏe. Chúng là một loại thực phẩm thân thiện với việc giảm cân và có liên quan đến việc giảm mức cholesterol và cải thiện sức khỏe của mắt."
+  },
+  {
+    "id": 4,
+    "productName": "Ngô Ngọt",
+    "image": "🌽",
+    "from": "Việt Nam",
+    "nutrients": "Vitamin C, Magnesium",
+    "quantity": "2 🌽",
+    "price": "55000",
+    "organic": false,
+    "description": "Còn được gọi là ngô, ngô là một trong những loại ngũ cốc phổ biến nhất trên thế giới. Bỏng ngô và ngô ngọt là những loại được ăn phổ biến, nhưng các sản phẩm ngô tinh chế cũng được tiêu thụ rộng rãi, thường là nguyên liệu trong thực phẩm. Chúng bao gồm bánh tortillas, bánh tortilla chip, Polenta, bột ngô, bột ngô, xi-rô ngô và dầu ngô. Ngô nguyên hạt tốt cho sức khỏe như bất kỳ loại ngũ cốc nào, giàu chất xơ và nhiều vitamin, khoáng chất và chất chống oxy hóa."
+  }
+]
