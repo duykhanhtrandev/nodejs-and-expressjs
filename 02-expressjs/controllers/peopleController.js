@@ -1,12 +1,10 @@
-const express = require('express');
-const router = express.Router();
 let { people } = require('../data');
 
-router.get('/', (req, res) => {
+const getPeople = (req, res) => {
   res.status(200).json({ success: true, data: people });
-});
+};
 
-router.post('/', (req, res) => {
+const createPerson = (req, res) => {
   const { name } = req.body;
   if (!name) {
     return res
@@ -15,9 +13,9 @@ router.post('/', (req, res) => {
   }
 
   res.status(201).json({ success: true, person: name });
-});
+};
 
-router.post('/postman', (req, res) => {
+const createPersonPostman = (req, res) => {
   const { name } = req.body;
   if (!name) {
     return res
@@ -26,9 +24,9 @@ router.post('/postman', (req, res) => {
   }
 
   res.status(201).json({ success: true, data: [...people, name] });
-});
+};
 
-router.put('/:id', (req, res) => {
+const updatePerson = (req, res) => {
   const { id } = req.params;
   const { name } = req.body;
 
@@ -48,9 +46,9 @@ router.put('/:id', (req, res) => {
   });
 
   res.status(200).json({ success: true, data: newPeople });
-});
+};
 
-router.delete('/:id', (req, res) => {
+const deletePerson = (req, res) => {
   const { id } = req.params;
 
   const person = people.find((person) => person.id === Number(id));
@@ -63,6 +61,12 @@ router.delete('/:id', (req, res) => {
 
   const newPeople = people.filter((person) => person.id !== Number(id));
   return res.status(200).json({ success: true, data: newPeople });
-});
+};
 
-module.exports = router;
+module.exports = {
+  getPeople,
+  createPerson,
+  createPersonPostman,
+  updatePerson,
+  deletePerson,
+};
