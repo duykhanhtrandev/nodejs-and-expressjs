@@ -1,131 +1,130 @@
 [
   {
-    "name": "accent chair",
+    "name": "fl studio all plugins edition",
     "price": 25,
-    "company": "marcos",
+    "company": "image-line",
     "rating": 4
   },
   {
-    "name": "albany sectional",
+    "name": "live suite",
     "price": 109,
-    "company": "liddy",
+    "company": "ableton",
     "rating": 5
   },
   {
-    "name": "albany table",
+    "name": "live standard",
     "price": 309,
-    "company": "liddy",
+    "company": "ableton",
     "rating": 4.9
   },
   {
-    "name": "armchair",
+    "name": "fl studio signature bundle",
     "price": 125,
-    "company": "marcos",
+    "company": "image-line",
     "rating": 4.8
   },
   {
-    "name": "bar stool",
+    "name": "live intro",
     "price": 40,
-    "company": "liddy",
+    "company": "ableton",
     "rating": 4.6
   },
   {
-    "name": "dining table",
+    "name": "cubase pro",
     "price": 42,
-    "company": "ikea",
+    "company": "steinberg",
     "rating": 4.55
   },
   {
-    "name": "emperor bed",
+    "name": "cubase artist",
     "price": 23,
-    "company": "ikea"
+    "company": "steinberg"
   },
   {
-    "name": "entertainment center",
+    "name": "pro tools",
     "price": 59,
     "featured": true,
-    "company": "caressa"
+    "company": "avid"
   },
   {
-    "name": "high-back bench",
+    "name": "cubase elements",
     "price": 39,
     "featured": true,
-    "company": "ikea"
+    "company": "steinberg"
   },
-
   {
-    "name": "leather sofa",
+    "name": "pro tools | carbon pre",
     "price": 99,
-    "company": "caressa"
+    "company": "avid"
   },
   {
-    "name": "modern bookshelf",
+    "name": "pro tools | sync x",
     "price": 31,
     "featured": true,
-    "company": "caressa"
+    "company": "avid"
   },
   {
-    "name": "modern poster",
+    "name": "push standard",
     "price": 30,
-    "company": "liddy"
+    "company": "ableton"
   },
   {
-    "name": "shelf",
+    "name": "nuendo",
     "price": 30,
-    "company": "ikea"
+    "company": "steinberg"
   },
   {
-    "name": "simple chair",
+    "name": "max",
     "price": 109,
-    "company": "liddy"
+    "company": "ableton"
   },
   {
-    "name": "sofa set",
+    "name": "fl studio producer edition",
     "price": 129,
-    "company": "marcos"
+    "company": "image-line"
   },
   {
     "name": "suede armchair",
     "price": 15,
-    "company": "caressa"
+    "company": "avid"
   },
   {
-    "name": "utopia sofa",
+    "name": "push suite",
     "price": 79,
     "featured": true,
-    "company": "liddy"
+    "company": "ableton"
   },
   {
-    "name": "vase table",
+    "name": "fl studio fire",
     "price": 120,
     "featured": true,
-    "company": "marcos"
+    "company": "image-line"
   },
   {
-    "name": "wooden bed",
+    "name": "nuendo live",
     "price": 25,
-    "company": "ikea"
+    "company": "steinberg"
   },
   {
-    "name": "wooden desk",
+    "name": "usb - e licenser",
     "price": 15,
-    "company": "ikea"
+    "company": "steinberg"
   },
   {
-    "name": "wooden desk",
+    "name": "dorico pro 4",
     "price": 40,
-    "company": "ikea"
+    "company": "steinberg"
   },
   {
-    "name": "wooden table",
+    "name": "wave lab elements",
     "price": 23,
     "featured": true,
-    "company": "caressa"
+    "company": "avid"
   },
   {
-    "name": "a first wooden table",
+    "name": "cubasis",
     "price": 23,
     "featured": true,
-    "company": "caressa"
+    "company": "avid"
   }
 ]
