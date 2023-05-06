@@ -12,7 +12,6 @@ const errorHandlerMiddleware = require("./middleware/error-handler");
 app.use(express.static("./public"));
 app.use(express.json());
 
-// Router
 app.use("/api/v1", mainRouter);
 
 app.use(notFoundMiddleware);
@@ -23,7 +22,7 @@ const port = process.env.PORT || 3000;
 const start = async () => {
   try {
     app.listen(port, () =>
-      console.log(`Server is listening on port: http://127.0.0.1:3000`)
+      console.log(`Server is listening on port: http://localhost:${port}...`)
     );
   } catch (error) {
     console.log(error);
