@@ -1,3 +1,5 @@
+const User = require("../models/userModel");
+
 const register = async (req, res) => {
   res.send("register user");
 };
