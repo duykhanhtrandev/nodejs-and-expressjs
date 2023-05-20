@@ -8,10 +8,31 @@ const createProduct = async (req, res) => {
 };
 
 const getAllProduct = async (req, res) => {
-  res.send("list of products");
+  const products = await Product.find().sort("-createdAt");
+  res.status(StatusCodes.OK).json({ products });
+};
+
+const getProduct = async (req, res) => {
+  const { id: productId } = req.params;
+  const product = await Product.findById(productId);
+  res.status(StatusCodes.OK).json({ product });
+};
+
+const updateProduct = async (req, res) => {
+  const {
+    body: { name, price },
+    params: { id: productId },
+  } = req;
+  const product = await Product.findOneAndUpdate({ _id: productId }, req.body, {
+    new: true,
+    runValidators: true,
+  });
+  res.status(StatusCodes.OK).json({ product });
 };
 
 module.exports = {
   createProduct,
   getAllProduct,
+  getProduct,
+  updateProduct,
 };
